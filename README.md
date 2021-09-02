@@ -16,3 +16,4 @@ from kivymd.uix.toolbar import MDToolbar,
 import smtplib,
 import re
 
+![email_send](https://user-images.githubusercontent.com/76489213/131874241-524230b5-2794-4b27-b127-c4a0b34f4842.png)
