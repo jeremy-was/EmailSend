@@ -39,7 +39,7 @@ class EmailApp(MDApp):
         smtp_object.login(email,password)
         from_address = email
         subject = "Jerry's Email App"
-        msg = "Subject: "+subject+'\n'+self.input_body.text+'\n\n\n\n\n\n'+"This message was sent from Jerry's Email App, created using Python. \n\nDeveloper email address: jeremyaw2@gmail.com"
+        msg = "Subject: "+subject+'\n'+self.input_body.text+'\n\n\n\n\n\n'+"This message was sent from Jerry's Email App, created using Python. \n\nDeveloper email address: ***"
         smtp_object.sendmail(from_address,self.input_email.text,msg)
         self.label2.text = 'Message sent!'
 
