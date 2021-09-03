@@ -1,4 +1,4 @@
-# email_send
+# Email Send
 
 GUI app to send emails
 
